@@ -4,16 +4,16 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=ExampleKernel by osm0sis @ xda-developers
+kernel.string=ZETA Kernel for moon
 do.devicecheck=1
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=maguro
-device.name2=toro
-device.name3=toroplus
-device.name4=tuna
+device.name1=moon
+device.name2=RMX2191
+device.name3=RMX2193
+device.name4=RMX3171
 device.name5=
 supported.versions=
 supported.patchlevels=

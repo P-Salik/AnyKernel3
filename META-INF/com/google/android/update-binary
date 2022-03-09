@@ -471,7 +471,14 @@ if [ -f version ]; then
   ui_printfile version;
   ui_print " ";
 fi;
-ui_print " " "AnyKernel3 by osm0sis @ xda-developers" " ";
+ui_print " ---------------------------------------------------------------- ";
+ui_print "    ____  ____  ____  __     __ _  ____  ____  __ _  ____  __";
+ui_print "   (__  )(  __)(_  _)/ _\   (  / )(  __)(  _ \(  ( \(  __)(  )";
+ui_print "    / _/  ) _)   )( /    \   )  (  ) _)  )   //    / ) _) / (_/\";
+ui_print "   (____)(____) (__)\_/\_/  (__\_)(____)(__\_)\_)__)(____)\____/";
+ui_print " ";
+ui_print "              ------------  By @P_Salik  ------------             ";
+ui_print " -------------AnyKernel3 by osm0sis @ xda-developers------------- ";
 $BB grep -oE 'AK_BASE.*' META-INF/com/google/android/updater-script >&2;
 ui_print " ";
 
